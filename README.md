@@ -42,7 +42,7 @@ The project was managed by using Trello board and daily morning stand-ups.
 
 What if you don’t even know where to start on your story? This app for writers can definitely help.
 Inspiration can come from weird places and, now your phone can be one of them!
-This app is just like it sounds: an app for writers.
+This app is just like it sounds: an app for writers...and readers
 In particular, if you’re looking for a story writing app, READ-ME App is for you. It can help you lay the groundwork for your story, from organising all of your novel’s major events.
 
 # Users Journey

@@ -5,7 +5,7 @@ import Settings from '../../lib/Settings'
 
 const style = {
   height: '400px',
-  backgroundImage: 'url(https://www.rossettiarchive.org/img/9p-1850.virginia.endp4.jpg)',
+  backgroundImage: 'url(http://www.rossettiarchive.org/img/9p-1850.virginia.endp4.jpg)',
   backgroundSize: 'cover'
 
 }

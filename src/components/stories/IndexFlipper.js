@@ -18,7 +18,7 @@ const IndexFlipper = ({ style, stories, addToReadList, loadMore, reddit }) => {
         orientation='horizontal'
         style={{ touchAction: 'none' }}
       >
-        {stories.map(story =>
+        {stories.map((story, index) =>
           <Segment
             textAlign='center'
             style={style}
@@ -28,13 +28,13 @@ const IndexFlipper = ({ style, stories, addToReadList, loadMore, reddit }) => {
             <Container>
               <Divider hidden />
               <Header
-                as='h3'
+                as='h2'
               > {story.title} </Header>
-              <Divider hidden section />
+              <Divider hidden />
               {story.description &&
                 <p className="card-text"><strong> Description: </strong> {story.description}</p>
               }
-              <Divider hidden section />
+              <Divider hidden />
               {story.genre &&
                 <p className="card-text"><strong> Genre: </strong> {story.genre} </p>
               }
@@ -45,8 +45,7 @@ const IndexFlipper = ({ style, stories, addToReadList, loadMore, reddit }) => {
               }
 
             </Container>
-            <Divider section hidden />
-            <Divider section hidden />
+            <Divider  hidden />
             <Grid stackable columns={3}>
               <Grid.Column width={16}>
                 <Link to ={`/stories/info/${story.id}`} >
@@ -59,7 +58,7 @@ const IndexFlipper = ({ style, stories, addToReadList, loadMore, reddit }) => {
               </Grid.Column>
 
               <Grid.Column width={10}>
-                {reddit &&
+                {reddit && (index === stories.length - 1) &&
                   <Button
                     size='small'
                     onClick={loadMore}

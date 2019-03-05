@@ -58,7 +58,9 @@ class DesktopIndex extends React.Component{
                   }
 
 
-                  <Button onClick={(e)=> addToReadList(e,story)}  positive icon='add' content='Save to Reading List' />
+                  <Link to ={`/stories/info/${story.id}`} >
+                    <Button  secondary icon='info' content='Info Page' />
+                  </Link>
 
 
                   <Link to ={`/stories/${story.id}`} >

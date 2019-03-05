@@ -9,16 +9,7 @@ A hosted version of this app can be found at https://read-mee.herokuapp.com/
 ## Technologies Used
 * React.js
 * Flask
-* flask-sqlalchemy
-* marshmallow-sqlalchemy
-* praw
-* flask-bcrypt
-* psycopg2-binary
-* pyjwt
-* flask-marshmallow
 * Python
-* Express
-* Webpack
 * Mocha & Chai
 * Axios
 * SCSS/CSS
@@ -28,22 +19,37 @@ A hosted version of this app can be found at https://read-mee.herokuapp.com/
 * Git/Github
 * Heroku
 
+## Packages Used
+* flask-sqlalchemy
+* marshmallow-sqlalchemy
+* praw
+* flask-bcrypt
+* psycopg2-binary
+* pyjwt
+* flask-marshmallow
+* Webpack
 
-#### APIs:
+### APIs:
 * Reddit
 
 
 ## Contributors
 A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant)
-The project was managed using Trello and daily stand-ups.
+The project was managed by using Trello board and daily morning stand-ups.
 
 
 ## Project Summary
 
-
+What if you don’t even know where to start on your story? This app for writers can definitely help.
+Inspiration can come from weird places and, now your phone can be one of them!
+This app is just like it sounds: an app for writers.
+In particular, if you’re looking for a story writing app, READ-ME App is for you. It can help you lay the groundwork for your story, from organising all of your novel’s major events.
 
 # Users Journey
 
+Any users can check all the stories on reddit and also stories published by other users and start reading.
+The user reading has than been implemented by converting from text to voice the stories and also set up the night mode that will change the colour of the screen for a less bright screen
+If any READ-ME users would like to contact other users by sending messages and leave comment or publish short stories the register form is necessary and by log-in they can start their journey into the app and became a potential writer, join the readers community and, add the stories to the reading list for the future.
 
 
 
@@ -58,17 +64,16 @@ Work was carried out on branches of the code depository for each feature. This w
 Tasks were managed and assigned through the task manager Trello. We performed daily stand-ups to keep track of progress.
 
 
-# Styling
-
-For this app we have decided to use React Semantic UI which help us to design all the major form such as Register, Login and Messages implementing extra style by CSS to deliver the final result as we wanted to be.
 
 # Features
 
 reset password
-voice
+text to voice
 night mode
 mobile responsive
-
+flip effect
+sidebar on mobile
+navbar on desktop
 
 
 ### Challenges and Wins
@@ -76,8 +81,9 @@ mobile responsive
 
 ## Future features
 
-Yandex
+language translator
 Email service
 likes
 deleting from reading list
 gifs
+bookmark

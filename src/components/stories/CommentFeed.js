@@ -5,7 +5,6 @@ import Auth from '../../lib/Auth'
 import moment from 'moment'
 
 const CommentFeed = ({ data, nightMode, postComment, handleChange, commentData , deleteComment }) => {
-  console.log(data)
   return(
     <Segment textAlign='left' inverted={nightMode}>
       <Header inverted={nightMode} as='h3'>

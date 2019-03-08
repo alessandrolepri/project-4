@@ -18,7 +18,7 @@ const UsersDetail = ({usersDetail, handleUnfollowEvent, handleFollowEvent, handl
         </Header>
 
 
-        <Image src='https://react.semantic-ui.com/images/avatar/large/patrick.png' size='medium' circular centered/>
+        <Image src='https://pngimage.net/wp-content/uploads/2018/05/default-user-png-2.png' size='medium' circular centered/>
 
         <Divider  hidden />
         {

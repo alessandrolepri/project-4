@@ -1,14 +1,11 @@
 const synth = window.speechSynthesis
-// const voice = synth.getVoices()[0]
-class Speech{
+const msg = new SpeechSynthesisUtterance()
 
-  // static getVoice(){
-  //   return voice
-  // }
+class Speech{
 
   static appSpeak(text){
     synth.cancel()
-    const msg = new SpeechSynthesisUtterance(text)
+    msg.text = text
     synth.speak(msg)
   }
   static cancelSpeak(){

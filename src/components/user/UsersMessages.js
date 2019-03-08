@@ -56,7 +56,6 @@ class UsersMessage extends React.Component{
     const errorMessages = Object.keys(this.state.errors).map(errorKey => {
       return this.state.errors[errorKey]
     })
-    console.log(errorMessages)
     if(!this.state.usersDetail ) return <LoadingPage />
     return(
       <Container>

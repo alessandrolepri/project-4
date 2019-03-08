@@ -11,7 +11,7 @@ const MessageList = ({ messageData, information }) => {
     <List.Item>
       <Link
         to={`/messages/${id}/show`}>
-        <Image avatar src='https://react.semantic-ui.com/images/avatar/small/rachel.png' />
+        <Image avatar src='https://pngimage.net/wp-content/uploads/2018/05/default-user-png-2.png' />
         <List.Content>
           <List.Header as='p'>{username}</List.Header>
           <List.Description  as='p'>{`Message was ${information} at :  ${moment(created_at).format('dddd HH:mm')}`}</List.Description>{/*  eslint-disable-line*/}

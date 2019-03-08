@@ -1,5 +1,5 @@
 import React from 'react'
-import { Segment, Divider, Header, Image } from 'semantic-ui-react'
+import { Segment, Divider, Header } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import FlipPage from 'react-flip-page'
 import Settings from '../../lib/Settings'
@@ -46,11 +46,11 @@ class Reader extends React.Component{
 
   render(){
     const { nightMode } = this.state
-    console.log(this.state.newStory)
     if(!this.state.newStory)return null
     if(this.state.width < 500)return(
       <div id='flippertwo'>
         <FlipPage
+          showSwipeHint
           orientation='horizontal'
           responsive
           style={{ touchAction: 'none' }}

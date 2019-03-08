@@ -86,7 +86,6 @@ class StoriesNewEdit extends React.Component{
   }
 
   render(){
-    console.log(this.state.storyData)
     return(
       <div>
         <StoryForm

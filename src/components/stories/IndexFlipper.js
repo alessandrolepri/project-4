@@ -14,6 +14,7 @@ const IndexFlipper = ({ style, stories, addToReadList, loadMore, reddit }) => {
     <div id='flipper'>
       <Divider section hidden />
       <FlipPage
+        showSwipeHint
         responsive
         orientation='horizontal'
         style={{ touchAction: 'none' }}

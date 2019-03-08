@@ -23,7 +23,6 @@ class SettingsPage extends React.Component{
 
   render(){
     const { nightMode }= this.state
-    console.log(nightMode)
     return(
       <Container>
         <Divider hidden section />

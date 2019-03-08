@@ -5,7 +5,7 @@ import Settings from '../../lib/Settings'
 
 const style = {
   height: '400px',
-  backgroundImage: 'url(http://www.rossettiarchive.org/img/9p-1850.virginia.endp4.jpg)',
+  backgroundImage: 'url(https://i.imgur.com/n2Ks2yS.jpg)',
   backgroundSize: 'cover'
 
 }
@@ -18,7 +18,6 @@ class DesktopIndex extends React.Component{
 
   render(){
     const { addToReadList, stories } = this.props
-    console.log(stories, 'stories')
     stories.forEach(story => console.log('hi'))
     return(
       <Container>

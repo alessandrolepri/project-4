@@ -35,7 +35,7 @@ A hosted version of this app can be found at https://read-mee.herokuapp.com/
 
 
 ## Contributors
-A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant), [Alessandro Lepri](https://github.com/alessandrolepri)
+A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant) 
 The project was managed by using Trello board and daily morning stand-ups.
 
 

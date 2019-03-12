@@ -1,5 +1,6 @@
 # General Assembly Project 4: READ-ME
 
+
 Live version:
 A hosted version of this app can be found at https://read-mee.herokuapp.com/
 
@@ -35,7 +36,7 @@ A hosted version of this app can be found at https://read-mee.herokuapp.com/
 
 
 ## Contributors
-A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant), [Alessandro Lepri](https://github.com/alessandrolepri)
+A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant)
 The project was managed by using Trello board and daily morning stand-ups.
 
 
@@ -56,7 +57,7 @@ If any READ-ME users would like to contact other users by sending messages and l
 
 ## Process
 
-The development process started with simple wireframes to workout the basic functionality of the site. We then decided what database models and routes would be needed. We started working on the backend api of the site by each making models and controllers for every route. Once the api routes had been made, this was tested by making api requests with Insomnia.
+The development process started with simple wireframes to workout the basic functionality of the site. We were using Python with Flask and SQLAlchemy to interact with the postgreSQL database. We used the MVC design pattern to built out the backend.
 
 With the backend up and running, we moved onto working on the frontend with React.js. Basic components were made for each page and a router was set up in the app.js file. We each took pages and worked on these individually creating the layout and functionality for each page.
 
@@ -68,16 +69,28 @@ Tasks were managed and assigned through the task manager Trello. We performed da
 
 # Features
 
-reset password
-text to voice
-night mode
-mobile responsive
-flip effect
-sidebar on mobile
-navbar on desktop
+###Reddit API
+
+We used the Reddit API to pull in additional short stories from the short stories subreddit. This was done using "praw", a wrapper for for the Reddit API using python. We also allow users to save a story from reddit to their reading list, which will also save the short story to our database, allowing users to make comments on it as well. In the future, we'd like to prevent the same reddit story from being added to the database multiple times.
+
+###Night Mode
+
+We thought night mode would be a very useful feature for those who love reading without the eye strain of a bright screen. This feature was achieved by creating a Settings class with static methods which saved the night mode setting in local storage, which would still be useful for if the user left the site and returned later. It was debated having night be stored in the database for each account, however we wanted any user(logged in or otherwise) to have access to night mode.
+
+###Mobile Focused
+
+From the outset, we decided we wanted to make the app heavily focused towards mobile. Since this is an app we envisioned people using while on the commute to work, sitting in bed, or just anywhere on the go. Semantic UI's very good documentation made it even more achievable to do this with a large app on just a seven day timeframe. Because of this mobile focused development, we felt a sidebar would fit very well for this app.
+
+###Flip Effects
+
+This was achieved using a package call 'react-flip-page'. While it certainly was an essential and very useful part of creating the overall look and feel of the site, it was definitely a big challenge to work with and to style correctly.
 
 
-### Challenges and Wins
+# Challenges and Wins
+
+###Reading Page
+
+This page was particularly challenging for several reasons, and went through quite a few changes before the final version was settled. The main difficulties were due to the nature of the flip card component and how difficult it was to style correctly. Another difficulty was trying to get each page display the correct amount of words, so as to not flow off the page. This was done on the front end using a for loop. As the story came from the database(or API), it was a long string. I then split the string into an array, spliced it every 800 characters roughly, then placed each long portion into a div which then was styled via media queries to make them appear readable for each mobile size.
 
 
 ## Future features

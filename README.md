@@ -1,4 +1,4 @@
-#General Assembly Project 4: READ-ME
+# General Assembly Project 4: READ-ME
 
 Live version: A hosted version of this app can be found at https://read-mee.herokuapp.com/
 
@@ -57,7 +57,7 @@ The user reading has than been implemented by converting from text to voice the 
 If any READ-ME users would like to contact other users by sending messages and leave comment or publish short stories the register form is necessary and by log-in they can start their journey into the app and became a potential writer, join the readers community and, add the stories to the reading list for the future.
 
 
-##Process
+## Process
 
 The development process started with simple wireframes to workout the basic functionality of the site. We were using Python with Flask and SQLAlchemy to interact with the postgreSQL database. We used the MVC design pattern to built out the backend.
 

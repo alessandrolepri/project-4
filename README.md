@@ -45,12 +45,16 @@ The project was managed by using Trello board and daily morning stand-ups.
 
 ## Project Summary
 
+![Screenshot 2019-03-12 at 19 03 08](https://user-images.githubusercontent.com/42512889/54228321-d43fb080-44f9-11e9-82a8-59770fcd27a9.png)
+
 What if you don’t even know where to start on your story? This app for writers can definitely help.
 Inspiration can come from weird places and, now your phone can be one of them!
 This app is just like it sounds: an app for writers...and readers
 In particular, if you’re looking for a story writing app, READ-ME App is for you. It can help you lay the groundwork for your story, from organising all of your novel’s major events.
 
 ## Users Journey
+
+![Screenshot 2019-03-12 at 19 10 56](https://user-images.githubusercontent.com/42512889/54228693-98591b00-44fa-11e9-9645-60712c2dbb7b.png)
 
 Any users can check all the stories on reddit and also stories published by other users and start reading.
 The user reading has than been implemented by converting from text to voice the stories and also set up the night mode that will change the colour of the screen for a less bright screen
@@ -76,9 +80,18 @@ We used the Reddit API to pull in additional short stories from the short storie
 
 ### Night Mode
 
+![Screenshot 2019-03-12 at 19 09 20](https://user-images.githubusercontent.com/42512889/54228584-5def7e00-44fa-11e9-8f39-e2fc439d6485.png)
+
+![Screenshot 2019-03-12 at 19 09 00](https://user-images.githubusercontent.com/42512889/54228590-61830500-44fa-11e9-9827-ea84a93190cd.png)
+
+
 We thought night mode would be a very useful feature for those who love reading without the eye strain of a bright screen. This feature was achieved by creating a Settings class with static methods which saved the night mode setting in local storage, which would still be useful for if the user left the site and returned later. It was debated having night be stored in the database for each account, however we wanted any user(logged in or otherwise) to have access to night mode.
 
 ### Mobile Focused
+
+![Screenshot 2019-03-12 at 19 04 10](https://user-images.githubusercontent.com/42512889/54228486-2aacef00-44fa-11e9-88c5-4606edc5e9ff.png)
+
+![Screenshot 2019-03-12 at 19 03 58](https://user-images.githubusercontent.com/42512889/54228493-2ed90c80-44fa-11e9-850c-bb20b5326e52.png)
 
 From the outset, we decided we wanted to make the app heavily focused towards mobile. Since this is an app we envisioned people using while on the commute to work, sitting in bed, or just anywhere on the go. Semantic UI's very good documentation made it even more achievable to do this with a large app on just a seven day timeframe. Because of this mobile focused development, we felt a sidebar would fit very well for this app.
 
@@ -87,6 +100,8 @@ From the outset, we decided we wanted to make the app heavily focused towards mo
 This was achieved using a package call 'react-flip-page'. While it certainly was an essential and very useful part of creating the overall look and feel of the site, it was definitely a big challenge to work with and to style correctly.
 
 ### Reset Password
+
+![Screenshot 2019-03-12 at 19 04 43](https://user-images.githubusercontent.com/42512889/54228443-11a43e00-44fa-11e9-9cba-225f259c8db0.png)
 
 We thought that any App where the user needs to sign-up in order to post their story should also have a "reset password" function to fully complete the authentication process. Our idea was to verify if an email address was already been used and saved in our database in order to get access to the reset password stage. If the value provided is matching the database params.user then the password can be reset and a new token will be assign once log in again.
 

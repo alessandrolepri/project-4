@@ -97,9 +97,11 @@ We thought that any App where the user needs to sign-up in order to post their s
 
 This page was particularly challenging for several reasons, and went through quite a few changes before the final version was settled. The main difficulties were due to the nature of the flip card component and how difficult it was to style correctly. Another difficulty was trying to get each page display the correct amount of words, so as to not flow off the page. This was done on the front end using a for loop. As the story came from the database(or API), it was a long string. I then split the string into an array, spliced it every 800 characters roughly, then placed each long portion into a div which then was styled via media queries to make them appear readable for each mobile size.
 
-text to voice followers
+<!-- text to voice followers -->
 
 
 # Future features
 
-language translator Email service likes deleting from reading list gifs bookmark
+If we would have had more time our idea was to implement this App with a language translator to let the user choose the reading prefer reading language. Also another extra feature will the email service when the user ask to reset the password, so the user will receive via email the verification link generating a random code to clink on to confirm the email address and then reset your password. Adding the bookmark in the stories was also in our plane and this will help the user to keep reading from the last time.
+
+<!-- language translator Email service likes deleting from reading list gifs bookmark -->

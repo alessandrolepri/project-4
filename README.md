@@ -39,7 +39,7 @@ Live version: A hosted version of this app can be found at https://read-mee.hero
 
 
 ## Contributors
-A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant)
+A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant).
 The project was managed by using Trello board and daily morning stand-ups.
 
 
@@ -85,6 +85,10 @@ From the outset, we decided we wanted to make the app heavily focused towards mo
 ### Flip Effects
 
 This was achieved using a package call 'react-flip-page'. While it certainly was an essential and very useful part of creating the overall look and feel of the site, it was definitely a big challenge to work with and to style correctly.
+
+### Reset Password
+
+We thought that any App where the user needs to sign-up in order to post their story should also have a "reset password" function to fully complete the authentication process. Our idea was to verify if an email address was already been used and saved in our database in order to get access to the reset password stage. If the value provided is matching the database params.user then the password can be reset and a new token will be assign once log in again.
 
 
 # Challenges and Wins

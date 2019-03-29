@@ -1,5 +1,5 @@
 # General Assembly Project 4: READ-ME
-A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant), [Alessandro Lepri](https://github.com/alessandrolepri)
+A group project of 3 members [Joshua King](https://github.com/joshuaking06), [Siddant Gurung](https://github.com/Siddant)
 ## Goal
 To create a full-stack app using Python and PostgreSQL on the server-side and React on the client-side.
 A live version of this site can be found on Heroku ----> https://read-meee.herokuapp.com/
@@ -289,4 +289,4 @@ This page was particularly challenging for several reasons, and went through qui
 
 If we would have had more time our idea was to implement this App with a language translator to let the user choose the reading prefer reading language. Also another extra feature will the email service when the user ask to reset the password, so the user will receive via email the verification link generating a random code to clink on to confirm the email address and then reset your password. Adding the bookmark in the stories was also in our plane and this will help the user to keep reading from the last time.
 
-<!-- language translator Email service likes deleting from reading list gifs bookmark --> -->
+<!-- language translator Email service likes deleting from reading list gifs bookmark -->
